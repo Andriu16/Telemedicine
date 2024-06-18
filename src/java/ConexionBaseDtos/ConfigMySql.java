@@ -15,9 +15,9 @@ import java.sql.SQLException;
 
 //"jdbc:mysql://localhost/tele_medicina?useSSL=false&allowPublicKeyRetrieval=true";
 public class ConfigMySql {
-    public static String url = "jdbc:mysql://34.123.127.175:3306/tele_medicina?zeroDateTimeBehavior=CONVERT_TO_NULL";
-    public static String usuario = "rote";
-    public static String contraseña = "123456789";
+    public static String url = "jdbc:mysql://node188418-medic.jelastic.saveincloud.net/tele_medicina?useSSL=false&allowPublicKeyRetrieval=true";
+    public static String usuario = "root";
+    public static String contraseña = "FDNkgb98815";
 
  
     public static Connection conectar() {
